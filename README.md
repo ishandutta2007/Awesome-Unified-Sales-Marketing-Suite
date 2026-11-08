@@ -65,7 +65,7 @@ Commercial, cloud-hosted Unified Sales and Marketing Suite platforms sorted in d
 
 Self-hosted, community-driven Unified Sales and Marketing suites and specialized funnel/automation engines, sorted in descending order by GitHub stargazers ⭐.
 
-| Project 📂 | Stars ⭐ | Stack 🛠️ | License 📜 | Description & Key Strengths 💡 |
+| Project 📂 | GitHub_Stars ⭐ | Stack 🛠️ | License 📜 | Description & Key Strengths 💡 |
 |---|---|---|---|---|
 | **[twentyhq/twenty](https://github.com/twentyhq/twenty)** 🌟 | [![twenty stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | TypeScript / NestJS / React | AGPL-3.0 | Modern, open-source CRM alternative to Salesforce. Delivers modern UX, rich custom objects, REST/GraphQL APIs, workflow triggers, and customizable sales pipelines. 🚀 |
 | **[odoo/odoo](https://github.com/odoo/odoo)** 🌐 | [![odoo stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python / JavaScript / PostgreSQL | LGPL-3.0 | Complete open-source enterprise suite bundling CRM, automated email marketing, lead automation, website builder, eCommerce, and billing. 🏢 |
@@ -120,7 +120,7 @@ For developers, solopreneurs, marketing technologists, and enterprise architects
 Contributions are welcome! If you know of an active open-source Unified Sales or Marketing Suite or a self-hosted alternative that should be listed here, please open a pull request 🙌:
 
 1. Check that the repository is actively maintained (commits or releases within the last 12 months) 📅.
-2. Follow the table structure with the project link, GitHub stars badge (`style=social&color=white`), tech stack, license, and brief description 📝.
+2. Follow the table structure with the project link, GitHub_Stars_Badge (`style=social&color=white`), tech stack, license, and brief description 📝.
 3. Submit a pull request with details on why it stands out ✨.
 
 ---
