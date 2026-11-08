@@ -1,125 +1,150 @@
-# Awesome-Usage-Based-Pay-As-You-Go-Billing
+# Awesome-Unified-Sales-Marketing-Suite
 
-# Awesome Usage-Based & Pay-as-you-go Billing
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Unified Sales & Marketing Suite Banner" width="100%" />
+</p>
 
-> A curated list of top Usage-Based and Pay-as-you-go Billing platforms — both SaaS/Hosted commercial solutions and open-source alternatives for metering, rating, and invoicing consumption-based pricing.  
-> 🌟 Star this repo if you find it useful! 🌟
+# 🚀 Awesome Unified Sales & Marketing Suite 🎯
 
----
+> 🌟 A curated list of top Unified Sales and Marketing Suite platforms — both SaaS/Hosted commercial solutions and open-source alternatives for combining CRM, marketing automation, lead nurturing, and sales engagement in one platform. 🌟  
+> ⭐ **Star this repo if you find it useful!** ⭐
 
-## 📋 Table of Contents
+<p align="center">
+  <a href="https:/ggithub.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Unified-Sales-Marketing-Suite/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Chargebee](#chargebee)
-  - [Metronome](#metronome)
-  - [Orb](#orb)
-  - [m3ter](#m3ter)
-  - [Togai](#togai)
-  - [Amberflo](#amberflo)
-  - [Octane](#octane)
-  - [Monetize360](#monetize360)
-  - [Zuora](#zuora)
-- [Open-Source Software](#-open-source-software)
-  - [Lago](#lago)
-  - [OpenMeter](#openmeter)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+Unified Sales and Marketing Suites bring together CRM, lead generation, email automation, pipeline management, customer journey orchestration, and sales intelligence under one roof to eliminate silos and power modern Revenue Operations (RevOps) 📈.
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📋 Table of Contents 📑
 
-Commercial, cloud-hosted Usage-Based and Pay-as-you-go Billing platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Chargebee
-**Type:** Subscription and usage-based billing platform  
-Chargebee's Usage Ecosystem provides high-volume usage ingestion with schemaless tracking, flexible pricing design (pay-as-you-go, bundled features, or hybrid plans), and accurate billing at scale [citation:1]. It supports two primary usage models: **Fixed Fee + Overages** (base fee for included usage, per-unit charges beyond) and **Pay As You Go** (billed only for consumption during the billing cycle) [citation:12]. The platform offers 100 million free usage events per month for 24 months to customers who sign up by June 30, 2025 [citation:1].
-
-### Metronome
-**Type:** Usage-based billing infrastructure for AI and API products  
-Metronome is purpose-built for high-volume, real-time metering. Its billable metrics support aggregation types including count, sum, unique, max, and latest, plus SQL-based metrics for complex calculations [citation:2]. **Group keys** enable dimensional pricing (different rates per AI model, region, or instance type) and invoice line-item breakdowns. Products can be usage, subscription, composite, or fixed, with tiered rates and commit drawdown support [citation:2][citation:13]. SDKs are available for multiple languages.
-
-### Orb
-**Type:** Billing infrastructure for usage-based and hybrid pricing  
-Orb provides usage-based pricing, metering, and invoicing for API and cloud products [citation:14]. It offers a **Free Forever** tier with 10 Orbs included, and a paid plan at $20/month or $200/year for up to 5 Orbs, with custom enterprise pricing for higher volumes [citation:3]. Positioned for developers wanting straightforward usage billing without enterprise sales cycles.
-
-### m3ter
-**Type:** Metered billing and pricing platform  
-m3ter provides a comprehensive metering and rating engine for usage-based pricing. The platform includes a Console for configuration and API access, with a structured workflow covering accounts, products, meters, and bills [citation:5]. It supports tiered, volume, and custom pricing models, with worked examples for implementing usage-based pricing solutions.
-
-### Togai
-**Type:** Usage metering and billing with flexible pricing models  
-Togai is built around pricing configurability, supporting usage-based, seat-based, and hybrid models, with pre-paid, credits, post-paid, and commitment payment terms [citation:6]. Its four building blocks are: event schema definition, metering aggregation, price plan configuration, and customer onboarding. The platform automates invoicing at the end of each billing cycle based on configured rate cards [citation:6].
-
-### Amberflo
-**Type:** Metering and cost calculation platform  
-Amberflo's meter rates define how usage converts to cost. It supports **Per Unit** pricing (uniform cost per unit) and **Per Unit with Dimensions** (cost varies by usage attributes), which is the standard approach for real-world systems like token-based AI pricing [citation:7]. Rates can change over time with new configurations applied going forward, preserving historical accuracy.
-
-### Octane
-**Type:** Usage-based pricing and monetization platform  
-Octane provides a REST API for managing meters, pricing plans, customer entitlements, and real-time usage tracking. It supports counters, metered components, flat-rate schemes, discounts, trials, and add-ons. API resources include Meters, Price Plans, Subscriptions, Customers, Invoices, Credits, and Live Measurements, enabling real-time usage retrieval [citation:8].
-
-### Monetize360
-**Type:** Revenue infrastructure for consumption and outcome-based models  
-Monetize360 positions itself as a financial control layer for metering, pricing, and revenue capture across usage, consumption, tokens, and agent-based models [citation:9]. It is SOC 2 Type 2 certified and deployable on SaaS, Virtual Private Cloud, or on-premises. API-native connectors integrate with existing ERP, CRM, and billing platforms rather than requiring rip-and-replace [citation:9].
-
-### Zuora
-**Type:** Enterprise metered billing and revenue recognition  
-Zuora provides usage-based pricing and billing with a focus on finance teams. It supports metered, tiered, volume block, and overage pricing models, plus committed usage automation for prepaid and token-based models . Features include detailed usage line items on invoices, revenue recognition templates, and audit-ready usage reporting that traces back to individual usage records .
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [🔍 SEO & Keyword Directory](#-seo--keyword-directory)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 📈 Sector Overview & Market Dynamics 🌐
 
-Self-hosted, community-driven Usage-Based Billing platforms. The open-source ecosystem in this category is currently led by two mature projects.
+The global unified CRM and marketing automation sector is estimated between **$85 billion and $135 billion** in 2025–2026 (with core CRM at ~$80B–$126B and dedicated marketing automation adding ~$8B+), on track to exceed $170 billion by 2030 at an ~11% CAGR 📊.
 
-### Lago
-**Stack:** Ruby / PostgreSQL / ClickHouse / Redis | **License:** AGPL-3.0  
-Lago is the most established open-source billing platform, with 10.4K+ GitHub stars and AGPLv3 licensing [citation:15]. It handles usage-based, subscription, prepaid, and hybrid pricing on a single engine. The open-source edition provides core billing infrastructure: usage ingestion, billable metrics, plans, subscriptions, invoicing, and payment integrations. Premium capabilities (customer portals, prepaid credits, multiple billing entities, analytics, Lago AI, MCP) are available under commercial agreements [citation:4]. Lago does not replace your payment processor — it calculates charges, generates invoices, and connects to Stripe, Adyen, and GoCardless for collection [citation:15].  
-**Best for:** Teams wanting a proven, self-hosted billing engine with genuine open-source licensing and the flexibility to extend the code.
-
-### OpenMeter
-**Stack:** Go / PostgreSQL / ClickHouse / Kafka | **License:** Apache-2.0  
-OpenMeter is an open-source real-time metering and billing engine optimized for high-volume event ingestion [citation:11]. It ingests events via CloudEvents format, defines meters with flexible aggregations (SUM, COUNT, AVG, MIN, MAX), and queries usage in real time. Features include usage-based billing with tiered/graduated/flat-fee pricing, usage limits and entitlements with real-time balance tracking, product catalog with rate cards, prepaid credits, customer portal, webhook notifications, and **first-class LLM token cost tracking** [citation:11]. Architecture uses Kafka for streaming, ClickHouse for aggregation, and PostgreSQL for billing. Deploys via Docker Compose or Kubernetes Helm chart.  
-**Best for:** Teams building AI, agentic, or DevTool products that need real-time metering with Apache-2.0 licensing and no AGPL obligations.
+The market displays a **bifurcated hybrid structure**: it is **concentrated at the enterprise tier** where a handful of dominant vendors (Salesforce, HubSpot, Microsoft Dynamics, Adobe) hold the lion's share of enterprise revenue 🏢, yet **highly fragmented across the mid-market and SMB space** where specialized all-in-one funnels, self-hosted tools, and niche open-source solutions compete actively for agile teams seeking lower total cost of ownership 🛠️.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🟦 SaaS / Hosted Platforms ☁️
 
-| Software | License | Stack | Self-Hosted | LLM Token Tracking | Best For |
-|----------|---------|-------|-------------|-------------------|----------|
-| **Chargebee** | Proprietary | Cloud | ❌ | Via events | Subscription + usage hybrid |
-| **Metronome** | Proprietary | Cloud | ❌ | ✅ (group keys) | High-volume AI/API billing |
-| **Orb** | Proprietary | Cloud | ❌ | (Check) | Developer-friendly usage billing |
-| **m3ter** | Proprietary | Cloud | ❌ | (Check) | Metered billing configuration |
-| **Togai** | Proprietary | Cloud | ❌ | (Check) | Flexible pricing models |
-| **Amberflo** | Proprietary | Cloud | ❌ | ✅ (dimensions) | Cost calculation + dimensions |
-| **Octane** | Proprietary | Cloud | ❌ | (Check) | Real-time usage API |
-| **Monetize360** | Proprietary | Cloud/VPC/on-prem | (Enterprise) | ✅ (tokens/agents) | Consumption + outcome revenue |
-| **Zuora** | Proprietary | Cloud | ❌ | ✅ (committed usage) | Enterprise finance metering |
-| **Lago** | AGPL-3.0 | Ruby/PostgreSQL | ✅ | (Via events) | Proven open-source billing |
-| **OpenMeter** | Apache-2.0 | Go/ClickHouse/Kafka | ✅ | ✅ (first-class) | Real-time AI/DevTool metering |
+Commercial, cloud-hosted Unified Sales and Marketing Suite platforms sorted in descending order by company valuation / market capitalization / revenue 💰.
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you know of an open-source Usage-Based or Pay-as-you-go Billing platform that should be listed here, please open a pull request with:
-
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for usage-based billing is **very limited** — Lago and OpenMeter are the two mature options, with OpenMeter being the stronger choice for real-time AI/LLM token metering under a permissive Apache-2.0 license.
+| Platform 🏷️ | Company Scale (Valuation / Revenue) 💼 | Starting Price (Paid Tier) 💳 | Free Tier / Free Trial Limits 🎁 | Key Highlights & Architecture ⚡ |
+|---|---|---|---|---|
+| **[Salesforce Agentforce](https://www.salesforce.com/)** ⚡ | **~$150B–$185B Market Cap** ($41.5B+ ARR) | $25/user/month (Starter Suite, billed annually) | 30-day free trial (up to 10 users, 2,000 email sends, no credit card required) | Enterprise benchmark CRM and marketing cloud; Agentforce AI agents, Data Cloud unification, and multi-channel marketing journeys. 🏢 |
+| **[Zoho CRM Plus](https://www.zoho.com/crm/crmplus/)** 💼 | **~$12.5B Valuation** ($1.4B+ Revenue) | $57/user/month (annual) or $69/user/month (monthly) | Free forever plan available (Zoho CRM: max 3 users, 1 GB storage, 5,000 API calls/day, no workflows); CRM Plus unified suite offers a 30-day free trial (up to 10 users) | Comprehensive 8-app suite (CRM, Campaigns, SalesIQ, Desk, Social, Projects, Survey, Analytics) with unified dashboard. 🌐 |
+| **[HubSpot CRM Suite](https://www.hubspot.com/)** 🎯 | **~$10B–$11.5B Market Cap** ($3.45B ARR) | $15/seat/month or €7/seat/month (Starter Customer Platform) | Free forever plan (max 1,000 total CRM contacts, 2,000 email sends/month, 2 seats, 1 deal pipeline, HubSpot-branded) | Polished inbound marketing, CRM deals, Breeze AI, ticketing, and cross-channel marketing workflows. 🚀 |
+| **[ActiveCampaign](https://www.activecampaign.com/)** 📬 | **$3B Valuation** (~$200M–$250M ARR) | $15/month (Starter tier, billed annually) | 14-day free trial (full Professional features, up to 100 outbound marketing email sends) | Best-in-class multi-step visual automation journeys, dynamic segmentation, and built-in sales CRM pipelines. 🔄 |
+| **[Brevo](https://www.brevo.com/)** ✉️ | **$1B+ Valuation** (~€200M ARR) | $9/month (Starter tier with 5,000 emails/month) | Free forever plan (up to 100,000 stored contacts, strict 300 emails/day cap, 2,000-contact automation workflow limit, Brevo-branded) | Affordable multi-channel engagement suite (email, SMS, WhatsApp, web push, deals CRM, and chat inbox). 💬 |
+| **[GoHighLevel](https://www.gohighlevel.com/)** 🏢 | **$1B–$1.3B Valuation** (PeakEquity/GA backed) | $97/month (Starter plan) | 14-day free trial (full Starter/Unlimited features; SMS, telephony, and AI tokens billed separately) | Leading all-in-one platform for marketing agencies; features CRM, funnel builder, booking calendars, courses, and agency white-labeling. 🤝 |
+| **[ClickFunnels](https://www.clickfunnels.com/)** 🛒 | **~$360M+ Valuation** (~$150M+ ARR) | $97/month (Basic plan, billed annually) | 14-day free trial (full funnel builder, checkout, and workflow access across chosen plan tier) | High-converting sales funnel builder, landing page checkout optimization, upsells/order bumps, and follow-up email automations. 📈 |
+| **[SharpSpring](https://www.constantcontact.com/lead-gen-and-crm)** 🎯 | **$240M Acquisition Price** (Constant Contact) | $449/month (Historical baseline for 1,000 contacts; custom quote under Constant Contact Lead Gen & CRM) | No free forever plan; 14-day to 30-day partner trial or guided demo (capped at 100 test email sends during trial) | Full-funnel marketing automation and behavioral lead scoring with unlimited seat licenses included. 👥 |
+| **[Kartra](https://www.kartra.com/)** 📦 | **~$16M ARR** ($1.5B+ cumulative client GMV) | $99/month (Starter plan, billed annually) | 30-day free trial (access to Starter features with 2,500 contacts, 15,000 emails/month, 1 custom domain) | Unified creator & solopreneur marketing platform combining sales funnels, checkouts, course memberships, email sequences, and helpdesks. 💡 |
 
 ---
 
-## 📄 License
+## 🟩 Open-Source Software 🔓
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+Self-hosted, community-driven Unified Sales and Marketing suites and specialized funnel/automation engines, sorted in descending order by GitHub stargazers ⭐.
+
+| Project 📂 | Stars ⭐ | Stack 🛠️ | License 📜 | Description & Key Strengths 💡 |
+|---|---|---|---|---|
+| **[twentyhq/twenty](https://github.com/twentyhq/twenty)** 🌟 | [![twenty stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | TypeScript / NestJS / React | AGPL-3.0 | Modern, open-source CRM alternative to Salesforce. Delivers modern UX, rich custom objects, REST/GraphQL APIs, workflow triggers, and customizable sales pipelines. 🚀 |
+| **[odoo/odoo](https://github.com/odoo/odoo)** 🌐 | [![odoo stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python / JavaScript / PostgreSQL | LGPL-3.0 | Complete open-source enterprise suite bundling CRM, automated email marketing, lead automation, website builder, eCommerce, and billing. 🏢 |
+| **[frappe/erpnext](https://github.com/frappe/erpnext)** 💼 | [![erpnext stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python / Frappe Framework / MariaDB | GPL-3.0 | Full-featured business and CRM suite with integrated sales pipeline management, email newsletter campaigns, customer portal, and quotation workflows. 📊 |
+| **[chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)** 💬 | [![chatwoot stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails / Vue.js / PostgreSQL | MIT | Open-source customer engagement and live conversation platform. Unifies omnichannel communication (Live Chat, WhatsApp, Email, Facebook, Twitter) with CRM lead capture. 🤝 |
+| **[mautic/mautic](https://github.com/mautic/mautic)** 📬 | [![mautic stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | PHP / Symfony / MySQL | GPL-3.0 | The gold standard open-source marketing automation engine. Provides visual campaign builders, behavioral lead scoring, dynamic email nurturing, and landing pages with zero per-contact fees. 📧 |
+| **[salesagility/SuiteCRM](https://github.com/salesagility/SuiteCRM)** 👥 | [![suitecrm stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers) | PHP / MariaDB / Angular | AGPL-3.0 | Enterprise-grade open-source CRM with dedicated marketing campaign modules, lead-to-opportunity conversions, workflow automation, and reporting. 📑 |
+| **[erxes/erxes](https://github.com/erxes/erxes)** 🧩 | [![erxes stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers) | Node.js / TypeScript / React / MongoDB | Erxes Open Source License | Modular Experience Operating System (XOS) positioned as a self-hosted HubSpot alternative with shared team inboxes, sales pipelines, forms, and marketing automations. 🔌 |
+| **[seldonframe/seldonframe](https://github.com/seldonframe/seldonframe)** 🤖 | [![seldonframe stars](https://img.shields.io/github/stars/seldonframe/seldonframe?style=social&color=white)](https://github.com/seldonframe/seldonframe/stargazers) | Go / Node.js / MCP | Open Source | AI front-office suite and GoHighLevel alternative for agencies. Features CRM, calendar booking, funnel builders, and 146+ Model Context Protocol (MCP) agent tools. 🦾 |
+| **[autonnel/autonnel](https://github.com/autonnel/autonnel)** 🛍️ | [![autonnel stars](https://img.shields.io/github/stars/autonnel/autonnel?style=social&color=white)](https://github.com/autonnel/autonnel/stargazers) | Astro / TypeScript / PostgreSQL / Docker | Apache-2.0 | AI-native open-source ClickFunnels alternative. Enables self-hosted landing pages, checkout flows, order bumps, one-click upsells, and server-side ad conversion tracking. 🛒 |
+| **[NetSendo/NetSendo](https://github.com/NetSendo/NetSendo)** ✉️ | [![netsendo stars](https://img.shields.io/github/stars/NetSendo/NetSendo?style=social&color=white)](https://github.com/NetSendo/NetSendo/stargazers) | PHP / Laravel / Vue.js / Docker | NetSendo EULA (Source-Available) | Self-hosted email and SMS marketing automation system featuring visual workflows, contact segmentation, and AI integration for internal organizational deployment. 🔒 |
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+## 📊 Feature Comparison at a Glance 🔍
+
+| Software 🏷️ | License 📜 | Deployment 💻 | Core CRM 💼 | Email Marketing 📬 | Visual Automation 🔄 | Sales Funnels 🛒 | Omnichannel Inbox 💬 |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|
+| **Salesforce** | Proprietary | Cloud | ✅ Deep | ✅ | ✅ | ✅ | ✅ |
+| **Zoho CRM Plus** | Proprietary | Cloud | ✅ Deep | ✅ | ✅ | ✅ | ✅ |
+| **HubSpot** | Proprietary | Cloud | ✅ Deep | ✅ | ✅ | ✅ | ✅ |
+| **ActiveCampaign** | Proprietary | Cloud | ✅ | ✅ | ✅ Deep | ✅ | ✅ |
+| **Brevo** | Proprietary | Cloud | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **GoHighLevel** | Proprietary | Cloud | ✅ | ✅ | ✅ | ✅ Deep | ✅ |
+| **ClickFunnels** | Proprietary | Cloud | ⚠️ Light | ✅ | ✅ | ✅ Deep | ❌ |
+| **SharpSpring** | Proprietary | Cloud | ✅ | ✅ | ✅ | ✅ | ⚠️ Light |
+| **Kartra** | Proprietary | Cloud | ✅ | ✅ | ✅ | ✅ Deep | ✅ |
+| **Twenty** | AGPL-3.0 | Self-Hosted / Cloud | ✅ Deep | ⚠️ Integrations | ✅ | ⚠️ Via API | ⚠️ Light |
+| **Odoo** | LGPL-3.0 | Self-Hosted / Cloud | ✅ Deep | ✅ | ✅ | ✅ | ✅ |
+| **ERPNext** | GPL-3.0 | Self-Hosted / Cloud | ✅ Deep | ✅ | ✅ | ⚠️ Via forms | ⚠️ Support |
+| **Chatwoot** | MIT | Self-Hosted / Cloud | ✅ | ⚠️ Campaigns | ✅ (Bots) | ❌ | ✅ Deep |
+| **Mautic** | GPL-3.0 | Self-Hosted / Cloud | ⚠️ Light | ✅ Deep | ✅ Deep | ⚠️ Pages | ❌ |
+| **SuiteCRM** | AGPL-3.0 | Self-Hosted / Cloud | ✅ Deep | ✅ | ✅ | ⚠️ Workflows | ⚠️ Email |
+| **erxes** | Open Source | Self-Hosted / Cloud | ✅ | ✅ | ✅ | ⚠️ Forms | ✅ Deep |
+| **SeldonFrame** | Open Source | Self-Hosted / Cloud | ✅ | ✅ | ✅ (AI/MCP) | ✅ | ✅ |
+| **Autonnel** | Apache-2.0 | Self-Hosted / Cloud | ❌ | ⚠️ Webhooks | ⚠️ Funnels | ✅ Deep | ❌ |
+| **NetSendo** | Source-Available | Self-Hosted | ⚠️ Light | ✅ Deep | ✅ | ⚠️ Autoresponder | ❌ |
+
+---
+
+## 🔍 SEO & Keyword Directory 🔎
+
+For developers, solopreneurs, marketing technologists, and enterprise architects searching for 🚀:
+- **Unified CRM & Marketing Automation:** Open-source HubSpot alternatives, self-hosted Salesforce alternatives, open-source GoHighLevel alternatives, open-source ActiveCampaign alternatives.
+- **Sales Funnels & Conversions:** Self-hosted ClickFunnels alternatives, open-source Kartra alternatives, Docker sales funnel builder, headless checkout funnels.
+- **RevOps & Pipeline Management:** Open-source RevOps software, self-hosted CRM with visual workflow builder, self-hosted email drip campaigns, open-source omni-channel support desk.
+
+---
+
+## 🤝 Contributing 💡
+
+Contributions are welcome! If you know of an active open-source Unified Sales or Marketing Suite or a self-hosted alternative that should be listed here, please open a pull request 🙌:
+
+1. Check that the repository is actively maintained (commits or releases within the last 12 months) 📅.
+2. Follow the table structure with the project link, GitHub stars badge (`style=social&color=white`), tech stack, license, and brief description 📝.
+3. Submit a pull request with details on why it stands out ✨.
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+Thank you so much for using and exploring this curated list! If this project helped you discover the right sales and marketing stack or saved you valuable research hours, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with colleagues, teams, and your developer/marketing community!
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing updates, maintenance, and open-source curation, please visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is immensely appreciated! ❤️
+
+---
+
+## 📈 Star History 🌟
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Unified-Sales-Marketing-Suite&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Unified-Sales-Marketing-Suite&type=date&legend=top-left)
+
+---
+
+## 📄 License ⚖️
+
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0 Universal - Public Domain Dedication). Project links and software packages listed retain their respective original licenses 📜.
+
+---
+
+⭐ **If this curated list helps your sales and marketing stack evaluation, please star the repo!** ⭐
